@@ -47,7 +47,7 @@ public:
         EliminarNodoRecursivo(raiz, clave);
     }
 
-private:
+public:
     // Función auxiliar para insertar recursivamente una clave y valor en el árbol
     void InsertarRecursivo(Nodo<T>* nodo, const T& clave, const T& valor) {
         if (clave.empty()) {
